@@ -27,4 +27,4 @@ def insert(people: People):
     msg = f'名字：{people.name}，年龄：{age}'
     return {'success': True, 'msg': msg}
 if __name__ == '__main__':
-    uvicorn.run(app=app, host="127.0.0.1", port=8080)
+    uvicorn.run(app=app, host="127.0.0.1", port=80)
